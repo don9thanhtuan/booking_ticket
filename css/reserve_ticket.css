@@ -1,0 +1,48 @@
+/* CSS cho toàn bộ trang */
+* {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+span#countdown {
+    font-weight: bold;
+    color: #e74c3c; /* Màu đỏ cho phần đếm ngược */
+}
+
+span#message {
+    display: block;
+    font-size: 14px;
+    color: #e74c3c; /* Màu đỏ cho thông báo lỗi hoặc thông báo quan trọng */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* CSS cho đường viền và khoảng cách */
+.container p {
+    border-top: 1px dashed #ddd;
+    padding-top: 10px;
+}

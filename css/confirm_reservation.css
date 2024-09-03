@@ -1,0 +1,76 @@
+/* Reset một số thuộc tính mặc định */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-info {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.booking-info:last-child {
+    border-bottom: none;
+}
+
+.booking-info p {
+    margin: 5px 0;
+}
+
+.booking-info p span {
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+/* Style cho nút "Hủy vé" */
+.btn-cancel {
+    background-color: #dc3545; /* Màu nền đỏ */
+    color: #fff; /* Màu chữ trắng */
+    border: none; /* Không có đường viền */
+    padding: 10px 15px; /* Khoảng cách bên trong nút */
+    border-radius: 5px; /* Bo góc nút */
+    cursor: pointer; /* Hiệu ứng con trỏ chuột */
+    font-size: 14px; /* Kích thước chữ */
+    text-align: center; /* Canh giữa chữ */
+    display: inline-block; /* Hiển thị như khối nội tuyến */
+    text-decoration: none; /* Bỏ gạch dưới nếu nút là link */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu nền */
+}
+
+/* Hiệu ứng khi rê chuột qua nút */
+.btn-cancel:hover {
+    background-color: #c82333; /* Màu nền đỏ tối hơn khi rê chuột */
+}
+
+.btn-cancel:focus {
+    outline: none; /* Bỏ viền khi nút được chọn */
+}
